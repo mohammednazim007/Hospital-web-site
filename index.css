@@ -1,0 +1,1100 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap");
+
+/* Poppins google font family */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap");
+
+:root {
+  --dark: black;
+  --lightDark: #fda7df;
+  --green: #006266;
+  --black: #444;
+  --box_shadow: 0.4rem 0.4rem rgba(22, 160, 133, 0.2);
+  --text_shadow: 0.4rem 0.1rem 0 rgba(0, 0, 0, 0.2);
+  --border: 0.2rem solid (var(--green));
+  --customFont: "Poppins", sans-serif;
+}
+.customFont {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  padding: 1.8rem 6%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all.2s ease-out;
+  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+}
+
+/* for header or navbar css */
+header#mainHeade {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7%;
+  background: #fff;
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 10%);
+  position: fixed;
+  z-index: 1000;
+}
+nav.navbar a {
+  width: 69px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  color: black;
+  margin-right: 9px;
+  margin-top: 5px;
+  transition: 0.2s linear;
+}
+nav.navbar a:hover {
+  color: teal;
+}
+.herdbitIcon a i {
+  width: 53px;
+  display: inline-block;
+  float: left;
+  color: #16a085;
+  font-size: 2rem;
+  padding: 7px 9px;
+  transition: 0.5s;
+}
+
+.herdbitIcon p {
+  display: inline-block;
+  font-size: 27px;
+  letter-spacing: 3px;
+  color: var(--customFont);
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuBtn {
+  margin-left: 10px;
+  display: none;
+}
+/* hidden menu css */
+.menuBtn i {
+  color: teal;
+  font-size: 23px;
+  padding: 11px 3px;
+  cursor: pointer;
+}
+
+/* for home section all css here */
+/* ==================================================== */
+section.home {
+  padding-top: 7%;
+  margin: auto;
+  background: #f5f5f5;
+}
+
+.homeImgLeft {
+  width: 44%;
+  box-sizing: border-box;
+}
+
+.homeImgLeft img {
+  width: 100%;
+}
+
+.homeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeContent {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 9rem 1%;
+}
+
+.homeContent h2 {
+  font-size: 39px;
+  color: var(--black);
+  margin-bottom: 15px;
+  word-spacing: 9px;
+  text-shadow: var(--text_shadow);
+  letter-spacing: 5px;
+}
+
+.homeContent p {
+  color: #3c3a3a;
+  line-height: 35px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  padding-right: 13rem;
+}
+
+.buttons {
+  border: 2px solid var(--green);
+  padding: 4px 5px;
+  color: var(--green);
+  font-size: 18px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: var(--box_shadow);
+  margin-top: 38px;
+}
+.buttons i {
+  width: 30px;
+  background: teal;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 3px 10px;
+  margin-left: 8px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.buttons:hover {
+  background: var(--green);
+  color: white;
+}
+
+.buttons:hover i {
+  background: white;
+  color: teal;
+}
+
+/* icon container box */
+/* ======================================== */
+
+.icon_wraper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.singleIcon {
+  background: white;
+  padding: 10px 10px;
+  flex-basis: 22%;
+  border: 2px solid teal;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: var(--box_shadow);
+  margin: 49px 0px;
+}
+
+.singleIcon span i {
+  display: block;
+  text-align: center;
+  font-size: 2.4rem;
+  color: teal;
+  margin-bottom: 5px;
+}
+
+.singleIcon .count {
+  text-align: center;
+  display: block;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.singleIcon p {
+  padding: 10px 10px;
+}
+
+/* ========================================================
+service section css
+============================================================== */
+section#service h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ServiceWraper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+span.headService {
+  color: teal;
+  text-shadow: var(--text_shadow);
+}
+
+.serviceSingle {
+  flex-basis: 30%;
+  padding: 1rem 3rem;
+  border: 2px solid #51c7cc;
+  border-radius: 5px;
+  box-shadow: var(--box_shadow);
+  margin: 13px 2px;
+}
+.serviceSingle:hover {
+  background-color: #00bcd4bf;
+  color: white;
+}
+#iconSig {
+  width: 50px;
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: green;
+  box-shadow: var(--green);
+}
+.serviceSingle h3 {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.serviceSingle p {
+  font-weight: 100;
+  color: #706868;
+  padding: 6px 0px;
+}
+
+.btnSingle {
+  width: 163px;
+  background: white;
+  padding: 0px 8px;
+  font-size: 19px;
+  text-transform: capitalize;
+  border: 2px solid var(--green);
+  border-radius: 5px;
+  margin-top: 2rem;
+  box-shadow: var(--box_shadow);
+  box-sizing: border-box;
+}
+
+.btnSingle i {
+  width: 30px;
+  background: teal;
+  text-align: center;
+  color: white;
+  padding: 1px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.btnSingle:hover {
+  background-color: teal;
+  border: 2px solid orange;
+}
+.btnSingle:hover p {
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+/* ==========================================================
+                about us
+============================================================== */
+.aboutWraper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutImg {
+  width: 50%;
+}
+
+.aboutImg img {
+  width: 100%;
+}
+
+.aboutcontent {
+  width: 50%;
+  border: 1px solid #f0f0f0;
+  padding: 9rem 3%;
+  border-radius: 5px;
+  box-shadow: var(--box_shadow);
+}
+
+section#about h1 {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  color: tomato;
+  text-align: center;
+}
+
+.aboutcontent h2 {
+  font-size: 2.8rem;
+  letter-spacing: 3px;
+  text-shadow: var(--text_shadow);
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: teal;
+}
+
+.aboutcontent p {
+  padding: 1rem 1%;
+}
+
+span.colorsAbout {
+  color: teal;
+  margin-right: 0px;
+}
+
+/* ==================================================
+                    doctors section
+====================================================== */
+
+section.doctors h1 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 7px;
+  text-shadow: var(--text_shadow);
+  color: teal;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+}
+
+.doctorsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.singleDoctors {
+  flex-basis: 29%;
+  border: 1px solid var(--green);
+  box-shadow: var(--box_shadow);
+  box-sizing: border-box;
+  padding: 2rem 4%;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 41px;
+}
+
+.doctorImg {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.doctorImg img {
+  width: 70%;
+  border: 2px solid green;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+.doctorImg img:hover {
+  transform: scale(1.1);
+}
+section.doctors {
+  background-color: #f5f5f5;
+}
+
+.doctorImg h3 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  color: #3e3a3a;
+}
+
+.doctorImg span {
+  letter-spacing: 2px;
+  color: teal;
+}
+
+.doctorSocialMedia a {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 100%;
+  color: teal;
+  font-size: 1.5rem;
+  margin: 7px;
+  border: 2px solid teal;
+}
+.doctorSocialMedia a:hover {
+  background-color: #16a085;
+  color: white;
+}
+.doctorSocialMedia {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+section.doctors p {
+  display: inline-block;
+  color: #444444;
+}
+
+/* ==================================================
+                    Booking section
+=======================================================*/
+
+section#bookSection h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.bookContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bookLeft {
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+
+.bookRight {
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap");
+
+/* Poppins google font family */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap");
+
+:root {
+  --dark: black;
+  --lightDark: #fda7df;
+  --green: #006266;
+  --black: #444;
+  --box_shadow: 0.4rem 0.4rem rgba(22, 160, 133, 0.2);
+  --text_shadow: 0.4rem 0.1rem 0 rgba(0, 0, 0, 0.2);
+  --border: 0.2rem solid (var(--green));
+  --customFont: "Poppins", sans-serif;
+}
+.customFont {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  padding: 1.8rem 6%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all.2s ease-out;
+  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+}
+
+/* for header or navbar css */
+header#mainHeade {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7%;
+  background: #fff;
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 10%);
+  position: fixed;
+  z-index: 1000;
+}
+nav.navbar a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 2px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  color: #444444;
+  margin-right: 10px;
+  transition: 0.2s linear;
+}
+nav.navbar a:hover {
+  color: teal;
+}
+.herdbitIcon a i {
+  width: 53px;
+  display: inline-block;
+  float: left;
+  color: #16a085;
+  font-size: 2rem;
+  padding: 7px 9px;
+  transition: 0.5s;
+}
+
+.herdbitIcon p {
+  display: inline-block;
+  font-size: 27px;
+  letter-spacing: 3px;
+  color: var(--customFont);
+}
+
+/* hidden menu css */
+.menuBtn i {
+  color: teal;
+  font-size: 23px;
+  padding: 11px 3px;
+  cursor: pointer;
+}
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuBtn {
+  margin-left: 10px;
+  display: none;
+}
+
+/* for home section all css here */
+/* ==================================================== */
+section.home {
+  padding-top: 7%;
+  margin: auto;
+  background: #f5f5f5;
+}
+
+.homeImgLeft {
+  width: 44%;
+  box-sizing: border-box;
+}
+
+.homeImgLeft img {
+  width: 100%;
+}
+
+.homeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeContent {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 9rem 1%;
+}
+
+.homeContent h2 {
+  font-size: 39px;
+  color: var(--black);
+  margin-bottom: 15px;
+  word-spacing: 9px;
+  text-shadow: var(--text_shadow);
+  letter-spacing: 5px;
+}
+
+.homeContent p {
+  color: #3c3a3a;
+  line-height: 35px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  padding-right: 13rem;
+}
+
+.buttons {
+  border: 2px solid var(--green);
+  padding: 4px 5px;
+  color: var(--green);
+  font-size: 18px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: var(--box_shadow);
+  margin-top: 38px;
+}
+.buttons i {
+  width: 30px;
+  background: teal;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 3px 10px;
+  margin-left: 8px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.buttons:hover {
+  background: var(--green);
+  color: white;
+}
+
+.buttons:hover i {
+  background: white;
+  color: teal;
+}
+
+/* icon container box */
+/* ======================================== */
+
+.icon_wraper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.singleIcon {
+  background: white;
+  padding: 10px 10px;
+  flex-basis: 22%;
+  border: 2px solid teal;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: var(--box_shadow);
+  margin: 49px 0px;
+  text-align: center;
+}
+
+.singleIcon span i {
+  display: block;
+  font-size: 2.4rem;
+  color: teal;
+  margin-bottom: 5px;
+}
+
+.singleIcon .count {
+  display: block;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.singleIcon p {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+/* ========================================================
+service section css
+============================================================== */
+section#service h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ServiceWraper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+span.headService {
+  color: teal;
+  text-shadow: var(--text_shadow);
+}
+
+.serviceSingle {
+  flex-basis: 30%;
+  padding: 1rem 3rem;
+  border: 2px solid #51c7cc;
+  border-radius: 5px;
+  box-shadow: var(--box_shadow);
+  margin: 13px 2px;
+}
+.serviceSingle:hover {
+  background-color: #00bcd4bf;
+  color: white;
+}
+#iconSig {
+  width: 50px;
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: green;
+  box-shadow: var(--green);
+}
+.serviceSingle h3 {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.serviceSingle p {
+  font-weight: 100;
+  color: #706868;
+  padding: 6px 0px;
+}
+
+.btnSingle {
+  width: 163px;
+  background: white;
+  padding: 0px 8px;
+  font-size: 19px;
+  text-transform: capitalize;
+  border: 2px solid var(--green);
+  border-radius: 5px;
+  margin-top: 2rem;
+  box-shadow: var(--box_shadow);
+  box-sizing: border-box;
+}
+
+.btnSingle i {
+  width: 30px;
+  background: teal;
+  text-align: center;
+  color: white;
+  padding: 1px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.btnSingle:hover {
+  background-color: teal;
+  border: 2px solid orange;
+}
+.btnSingle:hover p {
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+/* ==========================================================
+                about us
+============================================================== */
+.aboutWraper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutImg {
+  width: 50%;
+}
+
+.aboutImg img {
+  width: 100%;
+}
+
+.aboutcontent {
+  width: 50%;
+  border: 1px solid #f0f0f0;
+  padding: 9rem 3%;
+  border-radius: 5px;
+  box-shadow: var(--box_shadow);
+}
+
+section#about h1 {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  color: tomato;
+  text-align: center;
+}
+
+.aboutcontent h2 {
+  font-size: 2.8rem;
+  letter-spacing: 3px;
+  text-shadow: var(--text_shadow);
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: teal;
+}
+
+.aboutcontent p {
+  padding: 1rem 1%;
+}
+
+span.colorsAbout {
+  color: teal;
+  margin-right: 0px;
+}
+
+/* ==================================================
+                    doctors section
+====================================================== */
+
+section.doctors h1 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 7px;
+  text-shadow: var(--text_shadow);
+  color: teal;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+}
+
+.doctorsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.singleDoctors {
+  flex-basis: 29%;
+  border: 1px solid var(--green);
+  box-shadow: var(--box_shadow);
+  box-sizing: border-box;
+  padding: 2rem 4%;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 41px;
+}
+
+.doctorImg {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.doctorImg img {
+  width: 70%;
+  border: 2px solid green;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+.doctorImg img:hover {
+  transform: scale(1.1);
+}
+section.doctors {
+  background-color: #f5f5f5;
+}
+
+.doctorImg h3 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  color: #3e3a3a;
+}
+
+.doctorImg span {
+  letter-spacing: 2px;
+  color: teal;
+}
+
+.doctorSocialMedia a {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 100%;
+  color: teal;
+  font-size: 1.5rem;
+  margin: 7px;
+  border: 2px solid teal;
+}
+.doctorSocialMedia a i {
+  text-align: center;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-29%);
+}
+.doctorSocialMedia a:hover {
+  background-color: #16a085;
+  color: white;
+}
+.doctorSocialMedia {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+section.doctors p {
+  display: inline-block;
+  color: #444444;
+}
+
+/* ==================================================
+                    Booking section
+=======================================================*/
+
+section#bookSection {
+  text-align: center;
+  font-size: 3rem;
+  color: #444444;
+  text-shadow: var(--text_shadow);
+}
+
+.bookContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bookLeft {
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+
+.bookRight {
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+span.bookText {
+  color: #14817b;
+}
+
+.bookRight {
+  padding: 5rem 6%;
+  box-sizing: border-box;
+}
+
+.fromMain h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #14817b;
+  margin-bottom: 2rem;
+}
+
+.fromMain input {
+  display: block;
+  border: 2px solid #0b837c;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px 18px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.fromMain {
+  border: 1px solid #0b857e;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+a.bookingBtn {
+  text-align: center;
+  display: block;
+  width: 113px;
+  margin: auto;
+  padding: 5px;
+  font-size: 18px;
+  color: teal;
+  border: 1px solid #058982;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+.bookLeft img {
+  width: 100%;
+}
+input.manageDate {
+  text-transform: lowercase;
+}
+
+/* ================================================
+        review section
+======================================================== */
+section#reviewSection {
+  background-color: #f5f5f5;
+}
+
+section#reviewSection p {
+  text-align: center;
+  font-size: 3rem;
+  display: block;
+  text-shadow: var(--text_shadow);
+  font-weight: 700;
+  color: #444444;
+}
+.reviewContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+span.clientReview {
+  color: #00a394;
+}
+
+.singleReview {
+  flex-basis: 31%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 3rem;
+  border: 2px solid #00a394;
+  padding: 2rem 1%;
+  border-radius: 5px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.singleReview::after {
+  content: "";
+  width: 120%;
+  height: 21rem;
+  background-color: rgb(12, 149, 149);
+  position: absolute;
+  top: -29%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.rangImage img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #ff9800;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+}
+
+.rangImage span {
+  display: block;
+  margin-bottom: 5px;
+  z-index: 1;
+  color: white;
+}
+
+small.someLorem {
+  text-align: initial;
+  display: block;
+  margin-top: 2rem;
+  color: #444444;
+  font-size: 0.9rem;
+  line-height: 22px;
+  padding: 0px 0px 0px 18px;
+}
+.star i {
+  color: white;
+  margin-top: 3px;
+}
+
+/* =========================================
+                footer section
+============================================= */
+.queiceLingSingle {
+  flex-basis: 22%;
+}
+
+.footerWraper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.queiceLingSingle h2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 11px;
+  color: teal;
+  border-bottom: 1px solid teal;
+}
+
+.queiceLingSingle a {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+  color: #444444;
+}
+
+.queiceLingSingle i {
+  margin-right: 5px;
+  font-size: 14px;
+  color: teal;
+  margin-right: 10px;
+}
+.queiceLingSingle a:hover i {
+  margin-right: 12px;
+  color: teal;
+}
+.developerDetails {
+  text-align: center;
+  padding: 19px 0px;
+  border-top: 1px solid #ddd;
+  color: #444444;
+}
+
+samp.developer {
+  color: teal;
+}
