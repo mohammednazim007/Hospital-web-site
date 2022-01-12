@@ -1,1 +1,3 @@
-# Hospital-web-site-2022-01-01
+# Hospital-web
+The web site has been done with HTML CSS & JAVASCRIPT
+https://najima1.github.io/Hospital-web-site/
